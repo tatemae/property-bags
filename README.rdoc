@@ -1,0 +1,17 @@
+= Property Bags
+
+Property bags make it easy to build a dynamic schema in a relational database.
+
+
+== Installation
+
+=== Install the gem:
+sudo gem install property-bags
+
+
+== Usage
+
+=== Visibility
+By default properties bags define the following visibility options
+
+Copyright (c) 2009 Tatemai, released under the MIT license

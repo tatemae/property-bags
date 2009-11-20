@@ -1,0 +1,18 @@
+#The account plugin needs to be configured.  The following values may be used to customize the account
+
+default: &DEFAULT
+
+  application_url: localhost:3000
+  
+  # session key information
+  session_key: _property_bags_session
+  session_secret: 8e89e5ec556dd23c782de04bbf4fb210b8503f9d25ebb96612324c1e54927996d0f3cd141e8dab784876cd888a9112184442a60d6e52f2d30e3ee8d322983252
+
+production:
+  <<: *DEFAULT
+  
+development:
+  <<: *DEFAULT
+  
+test:
+  <<: *DEFAULT
